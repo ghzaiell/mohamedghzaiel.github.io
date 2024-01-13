@@ -1,0 +1,64 @@
+body {
+  font-family: "Helvetica", Sans-Serif;
+  background-image: url("background2.png");
+  background-size: cover;
+  color: white;
+
+}
+
+
+
+#titre {
+  font-style: italic;
+ 
+  text-align: center;
+  color: white;
+  border: 3px solid;
+}
+
+#main {
+ 
+  
+  margin: 0 auto;
+width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+
+
+ 
+}
+
+
+
+.car {
+
+  border: 2px solid ;
+}
+
+.s{  
+  display: grid;
+  grid-template-columns: 3fr 1fr  ;
+  gap: 20px;
+
+
+}
+
+#footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: #000;
+  border: 3px solid;
+}
+
+#cantact {
+  text-align: center;
+  padding: 5px;
+  background-color: #58b0b0;
+  color: #000;
+  border: 3px solid;
+}
